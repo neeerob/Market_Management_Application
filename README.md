@@ -19,9 +19,17 @@ Final term assignment. A simple market management app...
  * The whole program must be organized using at least three user defined packages.
  * File Read Write must be there as mentioned above.
  * The program must be able to handle exceptions by itself.
+ 
+ Get Start
+```
+javac Start.java
+java Start
+```
 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+This PR looks great - it's ready to merge! :shipit:
