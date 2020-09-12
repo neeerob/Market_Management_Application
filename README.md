@@ -9,8 +9,9 @@ Final term assignment. A simple market management app...
 ## Completed and need to complete:
 - [x] Open and creat repository
 - [x] Create general structure
-- [ ] Write interfaces
+- [x] Write interfaces
 - [ ] Write classes
+- [ ] Import classes in interfaces
 - [ ] Write basic structere of start.java file
 - [ ] Complete start.java file
 
