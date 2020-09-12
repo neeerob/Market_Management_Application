@@ -1,2 +1,2 @@
-# Market_Management_Application
+# Market Management Application
 Final term assignment
