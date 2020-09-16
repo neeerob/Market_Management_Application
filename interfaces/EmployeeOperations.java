@@ -1,4 +1,5 @@
 package interfaces;
+import classes.Employee;
 import java.lang.*;
 
 public interface EmployeeOperations
