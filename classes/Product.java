@@ -11,7 +11,7 @@ public abstract class Product implements IQuantity
     protected int availableQuantity;
     protected double price;
 
-
+    /*
     public Product(String pid,String name,int availableQuantity,double price)
     {
         this.pid = pid;
@@ -19,6 +19,7 @@ public abstract class Product implements IQuantity
         this. availableQuantity = availableQuantity;
         this.price = price;
     }
+    */
 
 
     public void setPid(String pid)
