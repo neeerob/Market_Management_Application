@@ -10,7 +10,7 @@ Final term assignment. A simple market management app...
 - [x] Open and creat repository
 - [x] Create general structure
 - [x] Write interfaces
-- [ ] Write classes
+- [x] Write classes
 - [ ] Import classes in interfaces
 - [ ] Write basic structere of start.java file
 - [ ] Complete start.java file
