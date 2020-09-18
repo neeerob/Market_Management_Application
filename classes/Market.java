@@ -6,8 +6,8 @@ import interfaces.ShopOperations;
 
 public class Market implements EmployeeOperations,ShopOperations
 {
-    private Shop shops = new Shop();
-    private Employee employees[] = new Employee();
+    private Shop shops[] = new Shop[100];
+    private Employee employees[] = new Employee[100];
 
     public boolean insertEmployee(Employee e)
     {
@@ -45,18 +45,18 @@ public class Market implements EmployeeOperations,ShopOperations
 
 
     public Employee searchEmployee(String empId)
-	{
+    {
 
-		Employee e = null;
-		
-		for(int i=0; i<employees.length; i++)
-		{
-			if(employees[i] != null)
-			{
-				if(employees[i].getEmpId().equals(empId))
-				{
-					e = employees[i];
-					break;
+        Employee e = null;
+        
+        for(int i=0; i<employees.length; i++)
+        {
+            if(employees[i] != null)
+            {
+                if(employees[i].getEmpId().equals(empId))
+                {
+                    e = employees[i];
+                    break;
                 }
             }
         }
@@ -65,19 +65,19 @@ public class Market implements EmployeeOperations,ShopOperations
     
 
     public void showAllEmployees()
-	{
+    {
         System.out.println("-----------------------------------");
-		for(int i=0; i<employees.length; i++)
-		{
-			if(employees[i] != null)
-			{
-				System.out.println("Employee Name: "+ employees[i].getName());
-				System.out.println("Employee ID: "+ employees[i].getEmpId());
-				System.out.println("Salary: "+ employees[i].getSalary());
+        for(int i=0; i<employees.length; i++)
+        {
+            if(employees[i] != null)
+            {
+                System.out.println("Employee Name: "+ employees[i].getName());
+                System.out.println("Employee ID: "+ employees[i].getEmpId());
+                System.out.println("Salary: "+ employees[i].getSalary());
                 System.out.println();
             } 
         }
-		System.out.println("-----------------------------------");
+        System.out.println("-----------------------------------");
     }
     
     public boolean insertShop(Shop s)
@@ -85,9 +85,9 @@ public class Market implements EmployeeOperations,ShopOperations
         boolean flag = false;
         for(int i = 0;i<shops.length;i++)
         {
-            if(shop[i] == null)
+            if(shops[i] == null)
             {
-                shop[i] = s;
+                shops[i] = s;
                 flag = true;
                 break;
             }
