@@ -67,6 +67,7 @@ public abstract class Product implements IQuantity
 
         return flag;
     }
+    
     public boolean sellQuantity(int amount)
     {
         boolean flag = true;
@@ -78,7 +79,6 @@ public abstract class Product implements IQuantity
         }
         
         return flag;
-
     }
 
 }

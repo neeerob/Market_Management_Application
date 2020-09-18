@@ -29,7 +29,6 @@ public class Shop implements ProductOperations
     public boolean insertProduct(Product p)
     {
         boolean flag = false;
-
         for(int i =0; i<products.length;i++)
         {
             if(products[i] == null)
@@ -45,7 +44,6 @@ public class Shop implements ProductOperations
     public boolean removeProduct(Product p)
     {
         boolean flag = false;
-
         for(int i=0;i<products.length;i++)
         {
             if(products[i] == p )
@@ -55,9 +53,7 @@ public class Shop implements ProductOperations
                 break;
             }
         }
-
         return flag;
-
     }
 
     public Product searchProduct(String pId)
@@ -76,8 +72,8 @@ public class Shop implements ProductOperations
             }
         }
         return p;
-
     }
+
     public void showAllProducts()
     {
         for(int i = 0;i<products.length;i++)
@@ -92,7 +88,4 @@ public class Shop implements ProductOperations
             }
         }
     }
-
-
-
 }
