@@ -82,23 +82,49 @@ public class Market implements EmployeeOperations,ShopOperations
     
     public boolean insertShop(Shop s)
     {
-
-
-
+        boolean flag = false;
+        for(int i = 0;i<shops.length;i++)
+        {
+            if(shop[i] == null)
+            {
+                shop[i] = s;
+                flag = true;
+                break;
+            }
+        }
+        return flag;
     }
     
     public boolean removeShop(Shop s)
     {
-
-
-
+        boolean flag = false;
+        for(int i=0;i<shops.length;i++)
+        {
+            if(shops[i] == s)
+            {
+                shops[i] = null;
+                flag = true;
+                break;
+            }
+        }
+        return flag;
     }
 
     public Shop searchShop(String sid)
     {
-
-
-
+        Shop s = null;
+        for(int i =0;i<shops.length;i++)
+        {
+            if(shops[i] != null)
+            {
+                if(shops[i].getSid().equals(sid))
+                {
+                    s = shops[i];
+                    break;
+                }
+            }
+        }
+        return s;
     }
 
     public void showAllShops()
