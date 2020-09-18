@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.Scanner;
 import classes.*;
 import fileio.*;
-
+//Basic structure!!
 public class Start
 {
     public static void main(String [] args)
