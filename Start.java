@@ -7,7 +7,7 @@ public class Start
 {
     public static void main(String [] args)
     {
-        Scanner scan = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         FileReadWriteDemo frwd = new FileReadWriteDemo();
 
         System.out.println("-----------------------------------");
@@ -18,7 +18,6 @@ public class Start
 
         while(operation)
         {
-            System.out.println();
             System.out.println("What do you want to do?");
 			System.out.println("\t1. Employee Management");
 			System.out.println("\t2. Shop Management");
@@ -28,7 +27,7 @@ public class Start
             System.out.println("-----------------------------------\n");
             
             System.out.print("Enter Your Choice: ");
-			int choice = scan.nextInt();
+			int choice = sc.nextInt();
             System.out.println("-----------------------------------");
             
             switch(choice)
@@ -48,7 +47,7 @@ public class Start
                 System.out.println("-----------------------------------\n");
 
                 System.out.print("Enter Your Choice: ");
-			    int choice1 = scan.nextInt();
+			    int choice1 = sc.nextInt();
                 System.out.println("-----------------------------------");
 
                 
