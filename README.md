@@ -12,7 +12,7 @@ Final term assignment. A simple market management app...
 - [x] Write interfaces
 - [x] Write classes
 - [ ] Import classes in interfaces
-- [ ] Write basic structere of start.java file
+- [x] Write basic structere of start.java file
 - [ ] Complete start.java file
 
 ## Requirements:
