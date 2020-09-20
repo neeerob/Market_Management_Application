@@ -129,9 +129,19 @@ public class Market implements EmployeeOperations,ShopOperations
 
     public void showAllShops()
     {
+        System.out.println("-----------------------------------");
+        
+        for(int i=0;i<shops.length;i++)
+        {
+            if(shops[i] != null)
+            {
+                System.out.println("Shop Name : " + shops[i].getName());
+                System.out.println("Shop ID   : " + shops[i].getSid());
+                shops[i].showAllProducts();
 
-
-
+            }
+        }
+        System.out.println("-----------------------------------");
     }
 
 
