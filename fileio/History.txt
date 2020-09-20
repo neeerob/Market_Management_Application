@@ -1,0 +1,1 @@
+Product with ID p1 added to the shop with ID s1

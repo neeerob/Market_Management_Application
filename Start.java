@@ -183,12 +183,12 @@ public class Start
 							System.out.print("Enter Shop Name: ");
 							String shopName1 = sc.next();
 							
-							Shop s1 = new Shop();
+							//Shop s1 = new Shop();
 							
-							s1.setSid(shopId1);
-							s1.setName(shopName1);
+							s.setSid(shopId1);
+							s.setName(shopName1);
 							
-							if(m.insertShop(s1)){ System.out.println("Shop Inserted with ID: "+s1.getSid());}
+							if(m.insertShop(s)){ System.out.println("Shop Inserted with ID: "+s.getSid());}
 							else{System.out.println("Shop Can Not be Insertd......");}
 							
 							break;
