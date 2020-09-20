@@ -70,7 +70,7 @@ public abstract class Product implements IQuantity
     
     public boolean sellQuantity(int amount)
     {
-        boolean flag = true;
+        boolean flag = false;
 
         if(amount>0 && amount<=availableQuantity)
         {
