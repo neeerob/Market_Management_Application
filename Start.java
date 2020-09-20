@@ -297,6 +297,12 @@ public class Start
 							System.out.println("\t2. Local Product");
 							System.out.println("\t3. Go Back");
 							
+							System.out.print("Enter Shop ID: ");
+							String sid1 = sc.next();
+							
+							if(m.searchShop(sid1) != null)
+						{
+
 							System.out.print("Enter Product Type: ");
 							int pType = sc.nextInt();
 							
@@ -364,7 +370,11 @@ public class Start
 									break;
 								}
 							}
-							
+						}
+						else
+						{
+							System.out.println("Shop not found!");
+						}
 							break;
 						}
 						
