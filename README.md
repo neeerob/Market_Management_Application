@@ -11,9 +11,9 @@ Final term assignment. A simple market management app...
 - [x] Create general structure
 - [x] Write interfaces
 - [x] Write classes
-- [ ] Import classes in interfaces
+- [x] Import classes in interfaces
 - [x] Write basic structere of start.java file
-- [ ] Complete start.java file
+- [x] Complete start.java file
 
 ## Requirements:
  * Object Oriented Programming Principles must be followed.
