@@ -1,6 +1,6 @@
 # Market Management Application
 
-Final term assignment. A simple market management app...
+Final term assignment. A simple market management app.
 
 ## Basic structure of this App
 
@@ -15,7 +15,7 @@ Final term assignment. A simple market management app...
 - [x] Write basic structere of start.java file
 - [x] Complete start.java file
 
-## Requirements:
+## Requirements :
  * Object Oriented Programming Principles must be followed.
  * The whole program must be organized using at least three user defined packages.
  * File Read Write must be there as mentioned above.
